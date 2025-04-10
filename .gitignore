@@ -1,0 +1,11 @@
+# Ignorer node_modules (store filer som installeres av npm)
+node_modules/
+
+# Ignorer .env (inneholder sensitive nøkler)
+.env
+
+# Hvis du bruker Mac, ignorer systemfiler
+.DS_Store
+
+# Railway/Render trenger ikke testfiler eller logg
+*.log
